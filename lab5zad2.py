@@ -6,7 +6,6 @@ def funkcja(n):
         for j in range(n):
             if (j>0 and i==0):
                 tab[i][j]=1
-                print("xd")
             elif (j==0 and i>0):
                 tab[i][j]=0
             elif (j>0 and i>0):
